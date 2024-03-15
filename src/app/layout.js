@@ -3,6 +3,7 @@ import { JetBrains_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import Nav from "@/components/nav";
 import { ClerkProvider } from "@clerk/nextjs";
+import { dark, neobrutalism } from "@clerk/themes";
 
 const jetbrainsMono = JetBrains_Mono({
   weight: "400",
@@ -16,7 +17,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider
+      appearance={{
+        baseTheme: dark,
+        signIn: {
+          baseTheme: neobrutalism,
+          variables: {
+            colorPrimary: "blue",
+            colorText: "white",
+          },
+        },
+      }}
+    >
       <html lang="en" suppressHydrationWarning>
         <body className={jetbrainsMono.className}>
           <ThemeProvider
