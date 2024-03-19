@@ -16,7 +16,7 @@ export default function Nav() {
         {!userId ? (
           <Link
             href="/sign-in"
-            className={buttonVariants({ variant: "outlineBlue" })}
+            className={buttonVariants({ variant: "outlineNeo" })}
           >
             Sign In
           </Link>
