@@ -27,6 +27,13 @@ export default function RootLayout({ children }) {
             colorText: "white",
           },
         },
+        signUp: {
+          baseTheme: neobrutalism,
+          variables: {
+            colorPrimary: "blue",
+            colorText: "white",
+          },
+        },
       }}
     >
       <html lang="en" suppressHydrationWarning>
