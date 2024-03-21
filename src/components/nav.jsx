@@ -9,7 +9,7 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-0 z-30 flex items-center justify-between border-b-4 border-black bg-transparent p-4 backdrop-blur-md">
-      <Link href="/" className="text-4xl">
+      <Link href="/" className="text-xl md:text-4xl">
         CodeLobby
       </Link>
       <div className="flex items-center space-x-4">

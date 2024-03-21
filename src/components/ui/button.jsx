@@ -15,7 +15,7 @@ const buttonVariants = cva(
         outline:
           "border border-input bg-background-primary hover:bg-accent hover:text-accent-foreground",
         outlineNeo:
-          "border border-b-4 border-l-4 bg-background-primary hover:bg-accent hover:text-accent-foreground border-black",
+          "border text-lg md:text-xl border-b-4 border-l-4 bg-background-primary hover:bg-accent hover:text-accent-foreground border-black",
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
