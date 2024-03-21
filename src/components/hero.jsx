@@ -45,7 +45,7 @@ export default function Hero() {
   
   return (
     <div
-    className='flex flex-col text-5xl antialiased tracking-tight w-screen font-bold'
+    className='flex flex-col text-5xl antialiased tracking-tight w-screen font-bold leading-normal'
     >
       Where coding enthusiasts&nbsp;
       <div className='relative w-1/4'>
